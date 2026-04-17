@@ -48,7 +48,7 @@
   }
 {% endstylesheet %}
 
-<section class="image_text">
+<section class="image_text image_text--{{ section.settings.theme_mode }}">
     {% for block in section.blocks %}
         {% case block.type %}
             {% when 'image' %}
