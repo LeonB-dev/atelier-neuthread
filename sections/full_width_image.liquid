@@ -1,0 +1,195 @@
+{% stylesheet %}
+    .full_width_image{
+        width: 100%;
+        position: relative;
+    }
+
+    .full_width_image .overlay{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 50;
+        opacity: 0.4;
+        position: absolute;
+    }
+
+    .full_width_image .image{
+        width: 100%;
+        max-height: 80vh;
+        aspect-ratio: 2/1;
+    }
+
+    .full_width_image .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .full_width_image .heading{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        padding: 15px;
+        display: flex;
+        position: absolute;
+    }
+
+    .full_width_image .heading.top_left{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .full_width_image .heading.center_left{
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .full_width_image .heading.bottom_left{
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+
+    .full_width_image .heading.top_center{
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .full_width_image .heading.center{
+        align-items: center;
+        justify-content: center;
+    }
+    .full_width_image .heading.bottom_center{
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .full_width_image .heading.top_right{
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .full_width_image .heading.center_right{
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .full_width_image .heading.bottom_right{
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    @media(max-width: 991px){
+        .full_width_image .image{
+            aspect-ratio: 1/1;
+        }
+    }
+{% endstylesheet %}
+
+<section class="full_width_image">
+    <div class="overlay" style="background: {{ section.settings.image_overlay }};"></div>
+    {% if section.settings.link %}
+        <a href="{{ section.settings.link }}" style="color: {{ section.settings.heading_colour }}">
+    {% endif %}
+    <div class="image">
+        <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}">
+    </div>
+    {% if section.settings.heading %}
+        <div class="heading {{ section.settings.heading_position }}">
+            <h2 style="color: {{ section.settings.heading_colour }}">{{ section.settings.heading }}</h2> 
+        </div>
+    {% endif %}
+    {% if section.settings.link %}
+        </a>
+    {% endif %}
+</section>
+
+{% schema %}
+{
+    "name": "Full Width Image",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "color",
+            "id": "image_overlay",
+            "label": "Image Overlay"
+        },
+        {
+            "type": "header",
+            "content": "Text"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "color",
+            "id": "heading_colour",
+            "label": "Heading Colour"
+        },
+        {
+            "type": "select",
+            "id": "heading_position",
+            "label": "Heading Position",
+            "options": [
+                {
+                "value": "top_left",
+                "label": "Top Left",
+                },
+                {
+                "value": "center_left",
+                "label": "Center Left",
+                },
+                {
+                "value": "bottom_left",
+                "label": "Bottom Left",
+                },
+                {
+                "value": "top_center",
+                "label": "Top Center",
+                },
+                {
+                "value": "center",
+                "label": "Center",
+                },
+                {
+                "value": "bottom_center",
+                "label": "Bottom Center",
+                },
+                {
+                "value": "top_right",
+                "label": "Top Right",
+                },
+                {
+                "value": "center_right",
+                "label": "Center Right",
+                },
+                {
+                "value": "bottom_right",
+                "label": "Bottom Right",
+                },
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Link"
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+        },
+    ],
+    "presets": [
+        {
+        "name": "Full Width Image"
+        }
+    ]
+}
+{% endschema %}
