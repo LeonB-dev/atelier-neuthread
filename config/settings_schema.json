@@ -513,6 +513,10 @@
             "label": "88px"
           },
           {
+            "value": "100",
+            "label": "100px"
+          },
+          {
             "value": "120",
             "label": "120px"
           },
