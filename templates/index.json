@@ -473,7 +473,7 @@
         "overlay_color": "#ffffff",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 75,
+        "padding-block-start": 50,
         "padding-block-end": 50
       }
     },
@@ -496,6 +496,20 @@
       "settings": {
         "content": "<h2>This is Not Recycling</h2><p>We don't reuse-we reconstruct.<br/><br/>Every garment begins as donated textile waste<br/>and is transformed into something entirely new.<br/><br/>Nothing is mass produced,<br/>Nothing is repeated,</p>",
         "theme_mode": "dark"
+      }
+    },
+    "divider_nqwTDH": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 0.5,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 5,
+        "padding-block-end": 16
       }
     },
     "hero_JMrcDM": {
@@ -706,6 +720,7 @@
     "hero_Ge7KFK",
     "section_bQUMGG",
     "image_text_KHLFqe",
+    "divider_nqwTDH",
     "hero_JMrcDM",
     "collection_list_6zEYEC"
   ]
