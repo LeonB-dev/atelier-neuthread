@@ -81,7 +81,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Discover the Process</h2>",
+            "text": "<h2><a href=\"/pages/contact\" title=\"Contact\">Discover the Process</a></h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
