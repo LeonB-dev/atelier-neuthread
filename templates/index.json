@@ -496,6 +496,113 @@
         "content": "<h2>This is Not Recycling</h2><p>We don't reuse-we reconstruct.<br/><br/>Every garment begins as donated textile waste<br/>and is transformed into something entirely new.<br/><br/>Nothing is mass.produced.<br/>Nothing is repeated,</p>"
       }
     },
+    "hero_JMrcDM": {
+      "type": "hero",
+      "blocks": {
+        "text_NRUnJh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NO REPEATS. NO RESTOCKS.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_rQNzAn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every piece is made from reclaimed materials.<br/>Once it's gone, it's gone.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1.25rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 10,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_DwaLQB": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop The Drop",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_NRUnJh",
+        "text_rQNzAn",
+        "button_DwaLQB"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/high-fashion-catwalk.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#000000a9",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 90,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "collection_list_6zEYEC": {
       "type": "collection-list",
       "blocks": {
@@ -689,6 +796,7 @@
     "hero_Ge7KFK",
     "section_bQUMGG",
     "image_text_KHLFqe",
+    "hero_JMrcDM",
     "collection_list_6zEYEC",
     "image_text_7LA3wj",
     "full_width_image_tzWWMJ",
