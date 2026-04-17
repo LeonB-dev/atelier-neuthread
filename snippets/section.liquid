@@ -52,6 +52,7 @@
         layout-panel-flex
         layout-panel-flex--{{ section.settings.content_direction }}
         section-content-wrapper
+        {% if section.settings.dividers %} dividers{% endif %}
         {% if section.settings.vertical_on_mobile %} mobile-column{% endif %}
       "
       style="
@@ -68,6 +69,10 @@
 {% stylesheet %}
   .section-wrapper {
     --section-height-offset: 0px;
+  }
+
+  .section-content-wrapper.dividers > div:not(:last-child) {
+    border-right: 1px solid #000;
   }
 
   .section[data-shopify-visual-preview] {
