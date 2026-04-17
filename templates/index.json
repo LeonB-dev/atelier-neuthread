@@ -190,11 +190,11 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Intentional design</h2>",
+                "text": "<p>RECLAIMED</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -216,7 +216,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Textiles rescued from<br/>donation streams before landfill.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -244,7 +244,7 @@
             "text_TWjp9R"
           ]
         },
-        "group_m8XrDb": {
+        "group_37b7He": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -284,15 +284,15 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_NQUXL4": {
+            "text_VmRg6f": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Quality first</h2>",
+                "text": "<p>RECONSTRUCTED</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -310,11 +310,11 @@
               },
               "blocks": {}
             },
-            "text_XKi4tp": {
+            "text_GyfPj9": {
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
+                "text": "<p>Cut, rebuilt, and reimagined<br/>into statement garments.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -338,11 +338,11 @@
             }
           },
           "block_order": [
-            "text_NQUXL4",
-            "text_XKi4tp"
+            "text_VmRg6f",
+            "text_GyfPj9"
           ]
         },
-        "group_dhEyeM": {
+        "group_99hkGA": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -382,15 +382,15 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_EmeGRe": {
+            "text_YUBnpV": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Customer care</h2>",
+                "text": "<p>REINVESTED</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -408,11 +408,11 @@
               },
               "blocks": {}
             },
-            "text_nyJgDf": {
+            "text_9VmPRf": {
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
+                "text": "<p>Every sale funds autism and<br/>neurodiversity services</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -436,15 +436,15 @@
             }
           },
           "block_order": [
-            "text_EmeGRe",
-            "text_nyJgDf"
+            "text_YUBnpV",
+            "text_9VmPRf"
           ]
         }
       },
       "block_order": [
         "group_MQgEVU",
-        "group_m8XrDb",
-        "group_dhEyeM"
+        "group_37b7He",
+        "group_99hkGA"
       ],
       "custom_css": [],
       "name": "t:names.multicolumn",
