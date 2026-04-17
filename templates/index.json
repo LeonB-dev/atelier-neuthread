@@ -493,7 +493,8 @@
       ],
       "name": "Image & Text",
       "settings": {
-        "content": "<h2>This is Not Recycling</h2><p>We don't reuse-we reconstruct.<br/><br/>Every garment begins as donated textile waste<br/>and is transformed into something entirely new.<br/><br/>Nothing is mass.produced.<br/>Nothing is repeated,</p>"
+        "content": "<h2>This is Not Recycling</h2><p>We don't reuse-we reconstruct.<br/><br/>Every garment begins as donated textile waste<br/>and is transformed into something entirely new.<br/><br/>Nothing is mass produced,<br/>Nothing is repeated,</p>",
+        "theme_mode": "dark"
       }
     },
     "hero_JMrcDM": {
@@ -594,7 +595,7 @@
         "section_height_custom": 50,
         "color_scheme": "scheme-5",
         "toggle_overlay": true,
-        "overlay_color": "#000000a9",
+        "overlay_color": "#000000a8",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "blurred_reflection": false,
