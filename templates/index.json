@@ -698,98 +698,6 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "image_text_7LA3wj": {
-      "type": "image_text",
-      "blocks": {
-        "image_wmt4kJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Velvet_Jacket.png",
-            "alt_tag": "",
-            "image_position": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_wmt4kJ"
-      ],
-      "name": "Image & Text",
-      "settings": {
-        "content": "<p>This is the content for the sectionThis is the content for the sectionThis is the content for the sectionThis is the content for the section</p>"
-      }
-    },
-    "full_width_image_tzWWMJ": {
-      "type": "full_width_image",
-      "name": "Full Width Image",
-      "settings": {
-        "image": "shopify://shop_images/Female_in_Suit_2_piece.png",
-        "image_overlay": "#000000",
-        "heading": "Heading",
-        "heading_colour": "#ffffff",
-        "heading_position": "bottom_left",
-        "link": ""
-      }
-    },
-    "section_qiFRKT": {
-      "type": "section",
-      "blocks": {
-        "video_PkdQmJ": {
-          "type": "video",
-          "name": "t:names.video",
-          "settings": {
-            "source": "uploaded",
-            "video": "shopify://files/videos/Green_Jacket_Product_Promotion_Video.mp4",
-            "video_url": "",
-            "video_autoplay": false,
-            "video_loop": true,
-            "alt": "",
-            "custom_width": 100,
-            "custom_width_mobile": 100,
-            "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 20,
-            "padding-inline-end": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "video_PkdQmJ"
-      ],
-      "name": "t:names.video_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "full-width",
-        "section_height": "custom",
-        "section_height_custom": 30,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 20,
-        "padding-block-end": 20
-      }
     }
   },
   "order": [
@@ -797,9 +705,6 @@
     "section_bQUMGG",
     "image_text_KHLFqe",
     "hero_JMrcDM",
-    "collection_list_6zEYEC",
-    "image_text_7LA3wj",
-    "full_width_image_tzWWMJ",
-    "section_qiFRKT"
+    "collection_list_6zEYEC"
   ]
 }
