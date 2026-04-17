@@ -476,6 +476,26 @@
         "padding-block-end": 100
       }
     },
+    "image_text_KHLFqe": {
+      "type": "image_text",
+      "blocks": {
+        "image_3emXri": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Velvet_Jacket.png",
+            "alt_tag": "",
+            "image_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_3emXri"
+      ],
+      "name": "Image & Text",
+      "settings": {
+        "content": "<h2>This is Not Recycling</h2><p>We don't reuse-we reconstruct.<br/><br/>Every garment begins as donated textile waste<br/>and is transformed into something entirely new.<br/><br/>Nothing is mass.produced.<br/>Nothing is repeated,</p>"
+      }
+    },
     "collection_list_6zEYEC": {
       "type": "collection-list",
       "blocks": {
@@ -668,6 +688,7 @@
   "order": [
     "hero_Ge7KFK",
     "section_bQUMGG",
+    "image_text_KHLFqe",
     "collection_list_6zEYEC",
     "image_text_7LA3wj",
     "full_width_image_tzWWMJ",
