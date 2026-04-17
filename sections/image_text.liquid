@@ -73,6 +73,16 @@
             "type": "richtext",
             "id": "content",
             "label": "Content"
+        },
+        {
+            "type": "select",
+            "id": "theme_mode",
+            "label": "Theme",
+            "options": [
+                { "value": "light", "label": "Light" },
+                { "value": "dark", "label": "Dark" }
+            ],
+            "default": "light"
         }
     ],
     "blocks": [
@@ -106,16 +116,6 @@
                         }
                     ]
                 },
-                {
-                "type": "select",
-                "id": "theme_mode",
-                "label": "Theme",
-                "options": [
-                    { "value": "light", "label": "Light" },
-                    { "value": "dark", "label": "Dark" }
-                ],
-                "default": "light"
-                }
             ],
         }
     ],
