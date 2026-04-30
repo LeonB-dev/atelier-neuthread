@@ -540,8 +540,8 @@
       "name": "t:names.collections_grid",
       "settings": {
         "collection_list": [
-          "automated-collection",
-          "frontpage"
+          "frontpage",
+          "whats-new"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
@@ -755,6 +755,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/Green_Jacket_Product_Promotion_Video (1).mp4",
+            "video_url": "",
             "video_autoplay": false,
             "video_loop": true,
             "alt": "",
