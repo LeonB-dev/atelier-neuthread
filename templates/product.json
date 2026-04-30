@@ -36,7 +36,7 @@
             "hide_variants": true,
             "padding-block-start": 20,
             "padding-block-end": 20,
-            "padding-inline-start": 20,
+            "padding-inline-start": 50,
             "padding-inline-end": 20
           },
           "blocks": {}
