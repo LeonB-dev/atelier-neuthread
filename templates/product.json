@@ -18,8 +18,8 @@
           "settings": {
             "media_presentation": "grid",
             "media_columns": "two",
-            "image_gap": 0,
-            "large_first_image": false,
+            "image_gap": 20,
+            "large_first_image": true,
             "icons_style": "arrow",
             "slideshow_controls_style": "counter",
             "slideshow_mobile_controls_style": "counter",
