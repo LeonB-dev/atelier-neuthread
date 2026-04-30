@@ -85,7 +85,7 @@
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
                 "background": false,
-                "background_color": "#00000026",
+                "background_color": "#000000",
                 "corner_radius": 0,
                 "padding-block-start": 50,
                 "padding-block-end": 0,
@@ -100,7 +100,7 @@
                 "show_sale_price_first": true,
                 "show_installments": true,
                 "show_tax_info": true,
-                "type_preset": "h5",
+                "type_preset": "h4",
                 "width": "100%",
                 "alignment": "center",
                 "font": "var(--font-body--family)",
@@ -120,7 +120,7 @@
               "type": "_divider",
               "name": "t:names.divider",
               "settings": {
-                "thickness": 1,
+                "thickness": 2,
                 "corner_radius": "square",
                 "width_percent": 100,
                 "padding-block-start": 12,
@@ -144,18 +144,17 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
-                "stacking": false,
+                "stacking": true,
                 "show_pickup_availability": false,
                 "gift_card_form": true,
                 "padding-block-start": 0,
-                "padding-block-end": 24,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
                 "quantity": {
                   "type": "quantity",
-                  "disabled": true,
                   "static": true,
                   "settings": {},
                   "blocks": {}
@@ -181,7 +180,7 @@
               "type": "accordion",
               "name": "t:names.accordion",
               "settings": {
-                "icon": "caret",
+                "icon": "plus",
                 "dividers": true,
                 "type_preset": "h6",
                 "inherit_color_scheme": true,
@@ -200,7 +199,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "Description",
-                    "open_by_default": false,
+                    "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
@@ -614,7 +613,7 @@
         "product": "{{ closest.product }}",
         "recommendation_type": "related",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
