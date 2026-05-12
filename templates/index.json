@@ -38,21 +38,6 @@
             "padding-inline-end": 48
           },
           "blocks": {
-            "button_EAzQkg": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
             "text_kzqhpp": {
               "type": "text",
               "name": "t:names.heading",
@@ -110,7 +95,7 @@
                 "label": "Shop The Drop",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
-                "style_class": "link",
+                "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
@@ -120,7 +105,6 @@
             }
           },
           "block_order": [
-            "button_EAzQkg",
             "text_kzqhpp",
             "text_HpGtji",
             "button_rkHbbr"
