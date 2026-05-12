@@ -166,32 +166,11 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "social_links_R8ipqW": {
-                  "type": "social-links",
-                  "name": "t:names.social_media_links",
-                  "settings": {
-                    "facebook_url": "https://www.facebook.com/daisychainproject",
-                    "instagram_url": "https://www.instagram.com/neuthreadofficial",
-                    "youtube_url": "https://www.youtube.com/channel/UCjJ7JfiEN9dIxevpfY39Qgg",
-                    "tiktok_url": "",
-                    "twitter_url": "https://x.com/daisychain_ne",
-                    "threads_url": "",
-                    "linkedin_url": "https://www.linkedin.com/company/daisy-chain/",
-                    "bluesky_url": "",
-                    "snapchat_url": "",
-                    "pinterest_url": "",
-                    "tumblr_url": "",
-                    "vimeo_url": "",
-                    "custom_url": ""
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_jXqmE4",
-                "email_signup_XgpLx7",
-                "social_links_R8ipqW"
+                "email_signup_XgpLx7"
               ]
             }
           },
