@@ -207,8 +207,8 @@
         "section_width": "page-width",
         "alignment_horizontal": "center",
         "color_scheme": "scheme-5",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 32,
+        "padding-block-end": 32
       }
     },
     "utilities": {
