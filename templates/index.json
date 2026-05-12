@@ -559,7 +559,19 @@
         "gap": 12,
         "color_scheme": "scheme-1",
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 20
+      }
+    },
+    "full_width_image_LG83eF": {
+      "type": "full_width_image",
+      "name": "Full Width Image",
+      "settings": {
+        "image": "shopify://shop_images/Female_in_Suit_2_piece.png",
+        "image_overlay": "#000000",
+        "heading": "Heading",
+        "heading_colour": "#ffffff",
+        "heading_position": "bottom_left",
+        "link": ""
       }
     },
     "section_UgLxMU": {
@@ -733,19 +745,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 20,
-        "padding-block-end": 20
-      }
-    },
-    "full_width_image_LG83eF": {
-      "type": "full_width_image",
-      "name": "Full Width Image",
-      "settings": {
-        "image": "shopify://shop_images/Female_in_Suit_2_piece.png",
-        "image_overlay": "#000000",
-        "heading": "Heading",
-        "heading_colour": "#ffffff",
-        "heading_position": "bottom_left",
-        "link": ""
+        "padding-block-end": 0
       }
     },
     "section_kfkTCy": {
@@ -814,8 +814,8 @@
     "slideshow",
     "section_rkr8hH",
     "collection_list_JgBXfC",
-    "section_UgLxMU",
     "full_width_image_LG83eF",
+    "section_UgLxMU",
     "section_kfkTCy"
   ]
 }
