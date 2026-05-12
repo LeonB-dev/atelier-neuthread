@@ -52,7 +52,7 @@
       "settings": {
         "logo_position": "center",
         "menu_position": "left",
-        "menu_row": "bottom",
+        "menu_row": "top",
         "show_search": true,
         "search_position": "right",
         "search_row": "top",
@@ -72,7 +72,7 @@
         "color_scheme_top": "scheme-5",
         "color_scheme_bottom": "",
         "color_scheme_transparent": "scheme-6",
-        "enable_transparent_header_home": true,
+        "enable_transparent_header_home": false,
         "home_color_scheme": "default",
         "enable_transparent_header_product": false,
         "product_color_scheme": "default",
