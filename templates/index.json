@@ -42,7 +42,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>REMADE.<br/>REDEFINED.<br/>UNREPEATABLE.</p>",
+                "text": "<p>Difference By</p><p>Design</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -67,7 +67,7 @@
             "text_HpGtji": {
               "type": "text",
               "settings": {
-                "text": "<p>Reclaimed textiles.<br/>Reconstructed into high-fashion pieces<br/>that fund neurodiversity services</p>",
+                "text": "<p>Desired by Nature</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
