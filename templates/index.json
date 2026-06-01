@@ -9,114 +9,129 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "hero_QhPFdX": {
+      "type": "hero",
       "blocks": {
-        "slide_hTm96z": {
-          "type": "_slide",
-          "name": "t:names.slide",
+        "text_LWUPUL": {
+          "type": "text",
+          "name": "t:names.heading",
           "settings": {
-            "media_type_1": "image",
-            "image_1": "shopify://shop_images/Female_in_Suit_2_piece.png",
-            "content_direction": "column",
+            "text": "<p>Difference By</p><p>Design</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 200,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_9nUafy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed by neurodiverse minds. Made from reclaimed textiles.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_VCtDnL": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_TQzQAV": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-5",
-            "toggle_overlay": true,
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
             "overlay_color": "#00000026",
-            "overlay_style": "gradient",
+            "overlay_style": "solid",
             "gradient_direction": "to top",
-            "padding-block-start": 40,
-            "padding-block-end": 40,
-            "padding-inline-start": 48,
-            "padding-inline-end": 48
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
-            "text_kzqhpp": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<p>Difference By</p><p>Design</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h1",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 200,
-                "padding-block-end": 40,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_HpGtji": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Designed by neurodiverse minds. Made from reclaimed textiles.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "1.5rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 20,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_yQCCRU": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "1.5rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 20,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "button_rkHbbr": {
+            "button_YbCyE7": {
               "type": "button",
+              "name": "t:names.button",
               "settings": {
                 "label": "Shop the collection",
                 "link": "shopify://collections/all",
@@ -130,7 +145,7 @@
               },
               "blocks": {}
             },
-            "button_BiAYAL": {
+            "button_yRdYGX": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -148,33 +163,48 @@
             }
           },
           "block_order": [
-            "text_kzqhpp",
-            "text_HpGtji",
-            "text_yQCCRU",
-            "button_rkHbbr",
-            "button_BiAYAL"
+            "button_YbCyE7",
+            "button_yRdYGX"
           ]
         }
       },
       "block_order": [
-        "slide_hTm96z"
+        "text_LWUPUL",
+        "text_9nUafy",
+        "text_VCtDnL",
+        "group_TQzQAV"
       ],
+      "name": "t:names.hero",
       "settings": {
-        "display_mode": "full_frame",
-        "section_width": "full-width",
-        "full_frame_on_mobile": false,
-        "slideshow_gap": 12,
-        "corner_radius": 0,
-        "slide_height": "large",
-        "content_position": "on-media",
-        "color_scheme": "",
-        "icons_style": "arrows_large",
-        "icons_shape": "none",
-        "slideshow_controls_style": "dots",
-        "autoplay": false,
-        "autoplay_speed": 4,
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/Female_in_Suit_2_piece.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     },
     "product_list_bD4rrJ": {
@@ -1452,7 +1482,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "hero_QhPFdX",
     "product_list_bD4rrJ",
     "section_Jq3rEh",
     "media_with_content_LwG7xF",
