@@ -969,7 +969,7 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "left",
-        "media_width": "medium",
+        "media_width": "wide",
         "media_height": "auto",
         "section_width": "page-width",
         "extend_media": true,
@@ -1206,7 +1206,7 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
-        "media_width": "medium",
+        "media_width": "wide",
         "media_height": "auto",
         "section_width": "page-width",
         "extend_media": true,
