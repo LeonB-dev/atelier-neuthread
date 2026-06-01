@@ -944,8 +944,8 @@
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-1",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-start": 20,
+        "padding-block-end": 20
       }
     },
     "media_with_content_wNpWUj": {
@@ -1181,7 +1181,7 @@
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-5",
-        "padding-block-start": 0,
+        "padding-block-start": 20,
         "padding-block-end": 0
       }
     },
