@@ -1207,7 +1207,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "narrow",
-        "media_height": "80svh",
+        "media_height": "100svh",
         "section_width": "page-width",
         "extend_media": true,
         "color_scheme": "scheme-5",
