@@ -4978,3 +4978,6 @@ product-recommendations:has([data-has-recommendations='false']) {
 .layout-panel-flex--column:has(> .button) > :not(.button) {
   width: 100%;
 }
+.slide__content .layout-panel-flex--column {
+  justify-content: flex-start !important;
+}
