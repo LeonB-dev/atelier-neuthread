@@ -749,7 +749,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Velvet_Jacket.png",
+            "image": "shopify://shop_images/young-female-models-denim_925x_fe892a1a-2273-4cf1-8051-188420aebab4.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -969,7 +969,7 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "left",
-        "media_width": "narrow",
+        "media_width": "medium",
         "media_height": "auto",
         "section_width": "page-width",
         "extend_media": true,
