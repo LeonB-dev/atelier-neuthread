@@ -4965,23 +4965,30 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
-.layout-panel-flex--column .button {
-  align-self: flex-start;
-}
-.layout-panel-flex--column:has(> .button) {
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
+/* Remove gap between H1 lines */
+.text-block.h1 p {
+  margin-block: 0;
 }
 
-.layout-panel-flex--column:has(> .button) > :not(.button) {
-  width: 100%;
-}
-.slide__content .layout-panel-flex--column {
-  justify-content: flex-start !important;
-}
+/* Slide content stacks from top with no gap */
 .slide__content .layout-panel-flex--column {
   justify-content: flex-start !important;
   align-items: flex-start !important;
+  gap: 0 !important;
+  flex-direction: column !important;
+}
+
+/* Full width for non-button blocks */
+.slide__content .layout-panel-flex--column > :not(.button) {
+  width: 100%;
+}
+
+/* Buttons sit side by side */
+.slide__content .layout-panel-flex--column > .button + .button {
+  margin-inline-start: var(--gap-sm);
+}
+
+/* Paragraph margins in slide */
+.slide__content .text-block p {
+  margin-block: 0;
 }
