@@ -24,7 +24,7 @@
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-end",
             "gap": 16,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-5",
@@ -67,13 +67,13 @@
             "text_HpGtji": {
               "type": "text",
               "settings": {
-                "text": "<p>Desired by Nature</p>",
+                "text": "<p>Designed by neurodiverse minds. Made from reclaimed textiles.</p><p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "custom",
                 "font": "var(--font-body--family)",
-                "font_size": "2rem",
+                "font_size": "1.5rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -92,7 +92,7 @@
             "button_rkHbbr": {
               "type": "button",
               "settings": {
-                "label": "Shop The Drop",
+                "label": "Shop the collection",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -100,7 +100,23 @@
                 "custom_width": 100,
                 "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
-                "font_size": 20
+                "font_size": 14
+              },
+              "blocks": {}
+            },
+            "button_BiAYAL": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Discover Neuthread",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100,
+                "font_size": 14
               },
               "blocks": {}
             }
@@ -108,7 +124,8 @@
           "block_order": [
             "text_kzqhpp",
             "text_HpGtji",
-            "button_rkHbbr"
+            "button_rkHbbr",
+            "button_BiAYAL"
           ]
         }
       },
