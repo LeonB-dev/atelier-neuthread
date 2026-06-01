@@ -561,5 +561,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".text-block.h1 p {margin-block: 0;}"
+    ]
   }
 }
