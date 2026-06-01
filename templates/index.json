@@ -990,7 +990,7 @@
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
-            "image_position": "contain",
+            "image_position": "cover",
             "video_position": "cover"
           },
           "blocks": {}
@@ -1000,7 +1000,7 @@
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "space-between",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 24
           },
           "blocks": {
@@ -1207,7 +1207,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "narrow",
-        "media_height": "auto",
+        "media_height": "80svh",
         "section_width": "page-width",
         "extend_media": true,
         "color_scheme": "scheme-5",
