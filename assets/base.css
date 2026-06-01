@@ -4965,3 +4965,16 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+.layout-panel-flex--column .button {
+  align-self: flex-start;
+}
+.layout-panel-flex--column:has(> .button) {
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.layout-panel-flex--column:has(> .button) > :not(.button) {
+  width: 100%;
+}
