@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Difference By</p><p>Design</p>",
+            "text": "<p>Difference by design. Desirable by nature.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -57,19 +57,18 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 20,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "text_VCtDnL": {
+        "text_gyjiaq": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
-            "text": "<p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
-            "width": "fit-content",
-            "max_width": "normal",
+            "text": "<p>Design-led fashion made from reclaimed materials, powered by neurodiverse creativity.</p>",
+            "width": "100%",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
@@ -83,7 +82,33 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 20,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_VCtDnL": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -171,6 +196,7 @@
       "block_order": [
         "text_LWUPUL",
         "text_9nUafy",
+        "text_gyjiaq",
         "text_VCtDnL",
         "group_TQzQAV"
       ],
@@ -270,11 +296,37 @@
               },
               "blocks": {}
             },
+            "text_aaRfcX": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h4>Recognisable forms. One-off finishes.</h4>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_fQ9PiY": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Recognisable forms. One-off finishes.</p><p>Every Neuthread garment is made from reclaimed textiles, which means each piece carries its own variation in texture, tone and character. The design stays true. The fabric makes it unique.</p><p>No excess. No exact repeats. Just design-led fashion made differently.</p>",
+                "text": "<p>Every Neuthread garment is made from reclaimed textiles, which means each piece carries its own variation in texture, tone and character. The design stays true. The fabric makes it unique.</p><p>No excess. No exact repeats. Just design-led fashion made differently.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -313,6 +365,7 @@
           },
           "block_order": [
             "product_list_text_GJexJd",
+            "text_aaRfcX",
             "text_fQ9PiY",
             "product_list_button_WyBUKK"
           ]
@@ -931,7 +984,7 @@
                 "text_GQVUq7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p></p><p>Neuthread is shaped by neurodiverse creativity.</p><p>Different perspectives are not a side note to the brand. They are part of its creative engine — influencing how materials are seen, how design decisions are made, and how overlooked things are turned into something valuable.</p><p>Difference here is not something added on. It is built in.</p>",
+                    "text": "<p>Neuthread is shaped by neurodiverse creativity.</p><p>Different perspectives are not a side note to the brand. They are part of its creative engine — influencing how materials are seen, how design decisions are made, and how overlooked things are turned into something valuable.</p><p>Difference here is not something added on. It is built in.</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -1072,7 +1125,7 @@
                 "text_Ew6tdb": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Most fashion begins with something new.<br/>Neuthread begins with what already exists.</p><p>We take reclaimed textiles and transform them into garments designed to be worn, kept and remembered. Not despite their past, but because of it.</p>",
+                    "text": "<p>Most fashion begins with something new.</p><p>Neuthread begins with what already exists.</p><p>We take reclaimed textiles and transform them into garments designed to be worn, kept and remembered. Not despite their past, but because of it.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -1143,7 +1196,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>We do not produce in volume.</h3>",
+                    "text": "<h3>Limited by material, not demand.</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1168,7 +1221,7 @@
                 "text_TFUVmM": {
                   "type": "text",
                   "settings": {
-                    "text": "<p></p><p>Every release is shaped by the textiles available, which means quantities stay small and outcomes stay distinctive. When the fabric changes, the garment changes. When it runs out, the piece ends there.</p><p>That is how we keep production controlled, reduce waste, and protect what makes Neuthread special.</p>",
+                    "text": "<p>We do not produce in volume.</p><p>Every release is shaped by the textiles available, which means quantities stay small and outcomes stay distinctive. When the fabric changes, the garment changes. When it runs out, the piece ends there.</p><p>That is how we keep production controlled, reduce waste, and protect what makes Neuthread special.</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -1339,11 +1392,37 @@
           },
           "blocks": {}
         },
+        "text_HKxMCK": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h3>Designed differently. Made deliberately. Worn with purpose.</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 20,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "text_ifC6cT": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Designed differently. Made deliberately. Worn with purpose.</p><p>Shop the current collection or join us as Neuthread continues to grow.</p>",
+            "text": "<p>Shop the current collection or join us as Neuthread continues to grow.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1447,6 +1526,7 @@
       "block_order": [
         "group_PEt4DF",
         "video_LjfwnA",
+        "text_HKxMCK",
         "text_ifC6cT",
         "group_4pGB9b"
       ],
