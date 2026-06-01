@@ -4981,3 +4981,7 @@ product-recommendations:has([data-has-recommendations='false']) {
 .slide__content .layout-panel-flex--column {
   justify-content: flex-start !important;
 }
+.slide__content .layout-panel-flex--column {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
