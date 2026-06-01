@@ -57,8 +57,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 200,
+                "padding-block-end": 40,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -67,7 +67,7 @@
             "text_HpGtji": {
               "type": "text",
               "settings": {
-                "text": "<p>Designed by neurodiverse minds. Made from reclaimed textiles.</p><p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
+                "text": "<p>Designed by neurodiverse minds. Made from reclaimed textiles.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -83,7 +83,33 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 20,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_yQCCRU": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Neuthread transforms overlooked textiles into limited garments with beauty, character and purpose. Each design is recognisable. Each fabric is different. Each piece is made to be wanted again.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1.5rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -124,6 +150,7 @@
           "block_order": [
             "text_kzqhpp",
             "text_HpGtji",
+            "text_yQCCRU",
             "button_rkHbbr",
             "button_BiAYAL"
           ]
