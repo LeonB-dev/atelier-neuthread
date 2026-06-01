@@ -4975,24 +4975,28 @@ product-recommendations:has([data-has-recommendations='false']) {
     margin-block: 0;
     }
 
-    /* Slide content: zero gap, items stack from top */
+    /* Slide content: switch to row wrap so buttons can sit side by side */
     .slide__content .layout-panel-flex--column {
-      justify-content: flex-start !important;
-        align-items: flex-start !important;
-          gap: 0 !important;
-          }
-
-          /* Non-button blocks take full width */
-          .slide__content .layout-panel-flex--column > :not(.button) {
-            width: 100%;
-            }
-
-            /* Buttons sit side by side */
-            .slide__content .layout-panel-flex--column > .button {
-              display: inline-grid;
-                width: fit-content;
+      flex-direction: row !important;
+        flex-wrap: wrap !important;
+          justify-content: flex-start !important;
+            align-items: flex-start !important;
+              align-content: flex-start !important;
+                gap: 0 !important;
                 }
 
-                .slide__content .layout-panel-flex--column > .button + .button {
-                  margin-inline-start: var(--gap-sm);
-                  }
+                /* Text blocks take full row width */
+                .slide__content .layout-panel-flex--column > :not(.button) {
+                  width: 100%;
+                    flex: 0 0 100%;
+                    }
+
+                    /* Buttons sit side by side with a small gap */
+                    .slide__content .layout-panel-flex--column > .button {
+                      flex: 0 0 auto;
+                        width: fit-content;
+                        }
+
+                        .slide__content .layout-panel-flex--column > .button + .button {
+                          margin-inline-start: var(--gap-sm);
+                          }
