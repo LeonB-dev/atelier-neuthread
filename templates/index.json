@@ -83,7 +83,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 20,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -131,6 +131,9 @@
       },
       "block_order": [
         "slide_hTm96z"
+      ],
+      "custom_css": [
+        ".group-block-content.layout-panel-flex--column {flex-direction: row !important; flex-wrap: wrap !important; align-items: flex-end !important; justify-content: flex-start !important; gap: var(--gap-sm) !important;}"
       ],
       "settings": {
         "display_mode": "full_frame",
