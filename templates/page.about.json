@@ -108,8 +108,8 @@
                   "name": "t:names.heading",
                   "settings": {
                     "text": "<h2>About Us</h2>",
-                    "width": "100%",
-                    "max_width": "none",
+                    "width": "fit-content",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h1",
                     "font": "var(--font-body--family)",
@@ -139,7 +139,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<p>This shouldn’t exist.</p><p>Most clothing ends up as waste.<br/>Neuthread exists to change what happens next.</p><p>We create design-led garments from reclaimed textiles, using fixed forms and ever-changing fabrics to produce pieces that feel recognisable, rare and alive with character.</p>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
                 "type_preset": "custom",
