@@ -42,9 +42,9 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
-            "width": "fit-content",
-            "max_width": "normal",
+            "text": "<p>Recognisable forms. One-off finishes.</p><p><br/>Every Neuthread garment is made from reclaimed textiles, giving each piece its own variation in colour, texture and character. The design stays true. The fabric makes it unique.</p>",
+            "width": "100%",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "h4",
             "font": "var(--font-body--family)",
