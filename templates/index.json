@@ -1259,8 +1259,8 @@
       "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
-        "media_width": "medium",
-        "media_height": "auto",
+        "media_width": "wide",
+        "media_height": "60svh",
         "section_width": "page-width",
         "extend_media": true,
         "color_scheme": "scheme-5",
