@@ -138,11 +138,11 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "",
-                "width": "100%",
+                "text": "<h4>This shouldn’t exist.</h4>",
+                "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
-                "type_preset": "custom",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -276,7 +276,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>This shouldn’t exist.</p><p>Most clothing ends up as waste.<br/>Neuthread exists to change what happens next.</p><p>We create design-led garments from reclaimed textiles, using fixed forms and ever-changing fabrics to produce pieces that feel recognisable, rare and alive with character.</p>",
+                "text": "<p></p><p>Most clothing ends up as waste.<br/>Neuthread exists to change what happens next.</p><p>We create design-led garments from reclaimed textiles, using fixed forms and ever-changing fabrics to produce pieces that feel recognisable, rare and alive with character.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
