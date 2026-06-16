@@ -1260,7 +1260,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "medium",
-        "media_height": "60svh",
+        "media_height": "auto",
         "section_width": "page-width",
         "extend_media": true,
         "color_scheme": "scheme-5",
