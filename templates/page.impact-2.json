@@ -394,9 +394,9 @@
         "image_gnhrtL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Velvet_Jacket_2.png",
+            "image": "shopify://shop_images/Female_in_Suit_2_piece_b788a0d7-80db-445b-8298-82c959006821.png",
             "link": "",
-            "image_ratio": "portrait",
+            "image_ratio": "square",
             "width": "fill",
             "custom_width": 37,
             "width_mobile": "fill",
