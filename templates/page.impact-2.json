@@ -396,8 +396,8 @@
           "settings": {
             "image": "shopify://shop_images/Velvet_Jacket_2.png",
             "link": "",
-            "image_ratio": "portrait",
-            "width": "custom",
+            "image_ratio": "adapt",
+            "width": "fill",
             "custom_width": 37,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
