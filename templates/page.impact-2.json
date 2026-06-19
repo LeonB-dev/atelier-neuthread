@@ -664,7 +664,7 @@
               "settings": {
                 "text": "Use\nWhat\nExists.\nMake \nLess.",
                 "font": "heading",
-                "alignment": "right",
+                "alignment": "left",
                 "line_height": "0.8",
                 "letter_spacing": "-0.03em",
                 "case": "uppercase",
@@ -681,7 +681,7 @@
       },
       "name": "t:names.editorial_jumbo_text",
       "settings": {
-        "media_position": "right",
+        "media_position": "left",
         "media_width": "medium",
         "media_height": "60svh",
         "section_width": "full-width",
